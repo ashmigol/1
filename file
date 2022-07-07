@@ -1,0 +1,12 @@
+<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+
+repos:
+ — repo: git://github.com/antonbabenko/pre-commit-Terraform
+   rev: v1.50.0
+   hooks:
+     — id: Terraform_tflint
+       args:
+         — '--args=--only=Terraform_deprecated_interpolation'
+         — '--args=--only=Terraform_deprecated_index'
+
+<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
